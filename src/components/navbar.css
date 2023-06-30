@@ -1,0 +1,40 @@
+.navbar {
+    margin: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: #1C1C1E;
+    box-shadow: 0px 2px 4px 0px rgba(244, 244, 244, 0.20);
+    height: 15vh;
+    z-index: 10;
+}
+
+.navbar .logo{
+    height: 9vh;
+    padding: 1vh 0vh 1vh 8vh;
+}
+
+/* .navbar .logo:hover{
+    height: 9.09vh;
+    transition: 0.4s;
+} */
+
+.navbar .lumosAcademy {
+    background-color: transparent;
+    border: solid 2.3px #965EFF;
+    border-radius: 13px;
+    color: #965EFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 2vh 4.5vh 2vh 4.5vh;
+    margin-right: 9.5vh;
+}
+
+.navbar .lumosAcademy:hover {
+    background-color:#965EFF;
+    color: #1C1C1E;
+    font-weight: 500;
+    transition: 0.8s;
+}
