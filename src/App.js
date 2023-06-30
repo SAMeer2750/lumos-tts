@@ -7,7 +7,9 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="content">
-        <textarea className="textBox"/>
+        <textarea 
+        className="textBox"
+        />
       </div>
     </div>
   );
