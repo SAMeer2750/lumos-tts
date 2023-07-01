@@ -39,3 +39,9 @@
   margin: 1.4vh 1.1vh 0.8vh 1.9vh;
   height: 4vh;
 }
+
+.App .content .playButton:active{
+  padding: 0.3vh;
+  margin-top: 2.7vh;
+  transition: 0.2s;
+}

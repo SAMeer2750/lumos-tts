@@ -9,7 +9,7 @@ function App() {
       <div className="content">
         <textarea className="textBox" />
         <div className="playButton">
-          <img src={Polygon} alt="" className='play'/>
+          <img src={Polygon} alt="" className="play" />
         </div>
       </div>
     </div>
