@@ -37,8 +37,6 @@
     background-color:#965EFF;
     color: #1C1C1E;
     font-weight: 500;
-    box-shadow: 0 0 1em .25em #965EFF,
-            0 0 4em 1em #965effac,
-            inset 0 0 1em .25em #965EFF;
+    box-shadow: 0 0 1em .25em #965EFF, 0 0 4em 1em #965effac, inset 0 0 1em .25em #965EFF;
     transition: all 0.3s;
 }

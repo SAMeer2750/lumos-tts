@@ -6,6 +6,9 @@
   background-color: #151515;
   padding-top: 15vh;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App .content .textBox{
@@ -18,4 +21,21 @@
   min-width: 90%;
   max-width: 90%;
   margin-top: 6vh;
+}
+
+.App .content .playButton{
+  background: #965EFF;
+  border-radius: 90px;
+  margin-top: 3vh;
+  transition: all 0.3s
+}
+
+.App .content .playButton:hover{
+  box-shadow: 0.2vh 0.2vh 10px 7px #965eff64,-0.2vh -0.2vh 10px 7px #965eff64;
+  transition: all 0.3s
+}
+
+.App .content .playButton .play{
+  margin: 1.4vh 1.1vh 0.8vh 1.9vh;
+  height: 4vh;
 }
