@@ -46,12 +46,13 @@
   margin-top: 2.7vh;
   transition: 0.2s;
   background-color: #151515;
-  transition: 0.2s;
+  box-shadow: 0.2vh 0.2vh 10px 7px #965eff64, -0.2vh -0.2vh 10px 7px #965eff64;
+  transition:all 0.2s;
 }
 
 .App .content .playButton .play:active{
   fill: #965EFF;
   stroke: #965EFF;
   stroke-width: 3;
-  transition: 0.2s;
+  transition:all 0.2s;
 }
