@@ -25,14 +25,16 @@
 
 .App .content .playButton{
   background: #965EFF;
+  border: solid #965EFF .315vh;
   border-radius: 90px;
-  margin-top: 3vh;
+  margin-top: 4vh;
   transition: all 0.3s
 }
 
 .App .content .playButton:hover{
-  box-shadow: 0.2vh 0.2vh 10px 7px #965eff64,-0.2vh -0.2vh 10px 7px #965eff64;
-  transition: all 0.3s
+  box-shadow: 0 0 1em .15em #965EFF, 0 0 4em .30em #965effac, 0 0 1em .15em #965EFF inset;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 .App .content .playButton .play{
@@ -43,16 +45,15 @@
 
 .App .content .playButton:active{
   padding: 0.3vh;
-  margin-top: 2.7vh;
+  margin-top: 3.7vh;
   transition: 0.2s;
-  background-color: #151515;
-  box-shadow: 0.2vh 0.2vh 10px 7px #965eff64, -0.2vh -0.2vh 10px 7px #965eff64;
+  background-color: transparent;
+  box-shadow: 0 0 1em .15em #965EFF, 0 0 4em .30em #965effac, 0 0 1em .15em #965EFF inset;
   transition:all 0.2s;
 }
 
 .App .content .playButton .play:active{
   fill: #965EFF;
   stroke: #965EFF;
-  stroke-width: 3;
   transition:all 0.2s;
 }

@@ -23,15 +23,23 @@
     color: #965EFF;
     font-size: 16px;
     font-weight: 500;
-    padding: 2vh 4.5vh 2vh 4.5vh;
+    padding: 2vh 6vh 2vh 6vh;
     margin-right: 9.5vh;
     transition: all 0.5s;
 }
 
 .navbar .lumosAcademy:hover {
     background-color:#965EFF;
+    cursor: pointer;
     color: #1C1C1E;
     font-weight: 500;
     box-shadow: 0 0 1em .25em #965EFF, 0 0 4em 1em #965effac, inset 0 0 1em .25em #965EFF;
     transition: all 0.3s;
+}
+
+.navbar .lumosAcademy:active{
+    background-color: #1C1C1E;
+    color: #965EFF;
+    box-shadow: 0 0 1em .5em #965EFF, 0 0 4em 1em #965effac, inset 0 0 1em .25em #965EFF;
+    transition: all 0.1s
 }
