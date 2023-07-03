@@ -5,7 +5,11 @@ import "./navbar.css";
 function navbar() {
     return (
         <div className="navbar">
-            <img src={logo} alt="logo" className="logo"/>
+            <div className="left">
+                <img src={logo} alt="logo" className="logo"/>
+                <hr />
+                <p>TTS</p>
+            </div>
             <button className="lumosAcademy">Lumos Academy</button>
         </div>
     )

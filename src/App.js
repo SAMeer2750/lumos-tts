@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from './components/navbar';
-import Polygon from './components/Polygon 1.svg'
 
 function App() {
   return (

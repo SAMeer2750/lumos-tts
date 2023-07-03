@@ -11,7 +11,31 @@
     z-index: 10;
 }
 
-.navbar .logo{
+.navbar .left{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.navbar .left hr{
+    height: 9vh;
+    background: #00bfed;
+    color: #00bfed;
+    border: #00bfed;
+    border-radius: 90px;
+    width: 1.5PX;
+}
+
+.navbar .left p{
+    color: #cccccc;
+    font-size: 55px;
+    line-height: 50px;
+    margin: 0 0 0 1.25vh;
+    font-weight: 100;
+}
+
+.navbar .left .logo{
     height: 9vh;
     padding: 1vh 0vh 1vh 8vh;
 }
