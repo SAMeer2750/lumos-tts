@@ -24,14 +24,14 @@
     color: #00bfed;
     border: #00bfed;
     border-radius: 90px;
-    width: 1.5PX;
+    width: 2px;
 }
 
 .navbar .left p{
     color: #cccccc;
-    font-size: 55px;
-    line-height: 50px;
-    margin: 0 0 0 1.25vh;
+    font-size: 7.2vh;
+    line-height: 6.1vh;
+    margin: 0vh 0vh 0.5vh 1.25vh;
     font-weight: 100;
 }
 
