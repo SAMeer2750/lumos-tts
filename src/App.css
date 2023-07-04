@@ -5,6 +5,7 @@
 .App .content{
   background-color: #151515;
   padding-top: 15vh;
+  padding-inline:2%; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,6 +22,8 @@
   min-width: 90%;
   max-width: 90%;
   margin-top: 6vh;
+  color: white;
+  padding: 2% 2%;
 }
 
 .App .content .playButton{
