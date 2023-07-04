@@ -67,3 +67,49 @@
     box-shadow: 0 0 1em .5em #965EFF, 0 0 4em 1em #965effac, inset 0 0 1em .25em #965EFF;
     transition: all 0.1s
 }
+
+@media (max-width:600px){
+    .navbar .left .logo{
+        height: 5vh;
+        padding: 1vh 0vh 1vh 3vh;
+    }
+
+    .navbar .left hr{
+        height: 5vh;
+    }
+
+    .navbar .left p{
+        font-size: 5vh;
+    }
+
+    .navbar .lumosAcademy {
+        background-color: transparent;
+        border: solid 2.3px #965EFF;
+        border-radius: 13px;
+        color: #965EFF;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 1.5vh 2vh 1.5vh 2vh;
+        margin-right: 3vh;
+        transition: all 0.5s;
+    }
+}
+
+@media (max-width:375px){
+    .navbar .left .logo{
+        height: 5vh;
+        padding: 1vh 0vh 1vh 1vh;
+    }
+
+    .navbar .lumosAcademy {
+        background-color: transparent;
+        border: solid 2.3px #965EFF;
+        border-radius: 13px;
+        color: #965EFF;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 1vh 1vh 1vh 1vh;
+        margin-right: 1vh;
+        transition: all 0.5s;
+    }
+}
